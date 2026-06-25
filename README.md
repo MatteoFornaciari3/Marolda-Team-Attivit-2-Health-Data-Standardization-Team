@@ -31,6 +31,11 @@ This starts:
 * A [Matchbox Server](https://github.com/ahdis/matchbox) for resource transformation
 
 
+### 5. Extract the zip folder
+
+in .\studies\weargaitpd\00-input extract "balance_files.7z" and delete the .7z file.
+
+
 ## Running the Pipeline
 
 ```bash
