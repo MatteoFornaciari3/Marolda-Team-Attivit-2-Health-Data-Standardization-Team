@@ -1,0 +1,92 @@
+[
+  {
+    "acqtime": "0 sec",
+    "obsppw": {
+      "l_foot_contact": 0.0,
+      "walkway_x": null
+    },
+    "obsimu": {
+      "lowerback_acc_x": 9.7175,
+      "lowerback_roll": -146.49039
+    },
+    "patient": {
+      "subjectid": "HC100"
+    },
+    "resourceType": "BalanceFirstOverview"
+  },
+  {
+    "acqtime": "0.01 sec",
+    "obsppw": {
+      "l_foot_contact": 0.0,
+      "walkway_x": null
+    },
+    "obsimu": {
+      "lowerback_acc_x": 9.742723,
+      "lowerback_roll": -168.598153
+    },
+    "patient": {
+      "subjectid": "HC100"
+    },
+    "resourceType": "BalanceFirstOverview"
+  },
+  {
+    "acqtime": "0.02 sec",
+    "obsppw": {
+      "l_foot_contact": 0.0,
+      "walkway_x": null
+    },
+    "obsimu": {
+      "lowerback_acc_x": 9.769863,
+      "lowerback_roll": -168.596508
+    },
+    "patient": {
+      "subjectid": "HC100"
+    },
+    "resourceType": "BalanceFirstOverview"
+  },
+  {
+    "acqtime": "0 sec",
+    "obsppw": {
+      "l_foot_contact": 0.0,
+      "walkway_x": null
+    },
+    "obsimu": {
+      "lowerback_acc_x": 9.813694,
+      "lowerback_roll": 35.897828
+    },
+    "patient": {
+      "subjectid": "NLS002"
+    },
+    "resourceType": "BalanceFirstOverview"
+  },
+  {
+    "acqtime": "0.01 sec",
+    "obsppw": {
+      "l_foot_contact": 0.0,
+      "walkway_x": null
+    },
+    "obsimu": {
+      "lowerback_acc_x": 9.793545,
+      "lowerback_roll": 35.804882
+    },
+    "patient": {
+      "subjectid": "NLS002"
+    },
+    "resourceType": "BalanceFirstOverview"
+  },
+  {
+    "acqtime": "0.02 sec",
+    "obsppw": {
+      "l_foot_contact": 0.0,
+      "walkway_x": null
+    },
+    "obsimu": {
+      "lowerback_acc_x": 9.790362,
+      "lowerback_roll": 35.964651
+    },
+    "patient": {
+      "subjectid": "NLS002"
+    },
+    "resourceType": "BalanceFirstOverview"
+  }
+]

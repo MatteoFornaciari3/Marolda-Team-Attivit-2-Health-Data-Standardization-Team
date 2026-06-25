@@ -1,0 +1,296 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "MDSUPDRS",
+  "name": "MDSUPDRS",
+  "title": "Movement Disorder Society-sponsored Unified Parkinsons Disease Rating Scale",
+  "status": "active",
+  "subjectType": ["Patient"],
+  "code": [
+    {
+      "system": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+      "code": "localmdspudrs",
+      "display": "MDS-UPDRS (Movement Disorder Society-sponsored Unified Parkinsons Disease Rating Scale)"
+    }
+  ],
+  "item": [
+    {
+      "linkId": "mds_3_1",
+      "text": "Speech",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "77690-6"
+      }
+    },
+    {
+      "linkId": "mds_3_2",
+      "text": "Facial expression",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66039-9"
+      }
+    },
+    {
+      "linkId": "mds_3_3_neck",
+      "text": "Rigidity Neck",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66037-3"
+      }
+    },
+    {
+      "linkId": "mds_3_3_rue",
+      "text": "Rigidity Right Upper Extremity",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66192-6"
+      }
+    },
+    {
+      "linkId": "mds_3_3_lue",
+      "text": "Rigidity Left Upper Extremity",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66193-4"
+      }
+    },
+    {
+      "linkId": "mds_3_3_rle",
+      "text": "Rigidity Right Lower Extremity",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66194-2"
+      }
+    },
+    {
+      "linkId": "mds_3_3_lle",
+      "text": "Rigidity Left Lower Extremity",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66195-9"
+      }
+    },
+    {
+      "linkId": "mds_3_4_l",
+      "text": "Finger Tapping Left Hand",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65696-7"
+      }
+    },
+    {
+      "linkId": "mds_3_4_r",
+      "text": "Finger Tapping Right Hand",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65695-9"
+      }
+    },
+    {
+      "linkId": "mds_3_5_r",
+      "text": "Hand Movements Right Hand",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65697-5"
+      }
+    },
+    {
+      "linkId": "mds_3_5_l",
+      "text": "Hand Movements Left Hand",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65698-3"
+      }
+    },
+    {
+      "linkId": "mds_3_6_r",
+      "text": "Pronation-Supination Movements of Hands Right Hand",
+      "type": "integer",
+      "code": {
+        "system": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+        "code": "localmds36r"
+      }
+    },
+    {
+      "linkId": "mds_3_6_l",
+      "text": "Pronation-Supination Movements of Hands Left Hand",
+      "type": "integer",
+      "code": {
+        "system": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+        "code": "localmds36l"
+      }
+    },
+    {
+      "linkId": "mds_3_8_r",
+      "text": "Leg Agility Right Leg",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65701-5"
+      }
+    },
+    {
+      "linkId": "mds_3_8_l",
+      "text": "Leg Agility Left Leg",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65702-3"
+      }
+    },
+    {
+      "linkId": "mds_3_9",
+      "text": "Arising from Chair",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65703-1"
+      }
+    },
+    {
+      "linkId": "mds_3_10",
+      "text": "GAIT",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65705-6"
+      }
+    },
+    {
+      "linkId": "mds_3_11",
+      "text": "FREEZING OF GAIT",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "77699-7"
+      }
+    },
+    {
+      "linkId": "mds_3_12",
+      "text": "Postural Stability",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65706-4"
+      }
+    },
+    {
+      "linkId": "mds_3_13",
+      "text": "POSTURE",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65704-9"
+      }
+    },
+    {
+      "linkId": "mds_3_14",
+      "text": "GLOBAL SPONTANEITY OF MOVEMENT (BODY BRADYKINESIA)",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "65811-2"
+      }
+    },
+    {
+      "linkId": "mds_3_15_R",
+      "text": "Postural tremor of the hands",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66036-5"
+      }
+    },
+    {
+      "linkId": "mds_3_15_L",
+      "text": "Postural tremor of the hands",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66196-7"
+      }
+    },
+    {
+      "linkId": "mds_3_17_RUE",
+      "text": "Rest tremor amplitude",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66035-7"
+      }
+    },
+    {
+      "linkId": "mds_3_17_LUE",
+      "text": "Rest tremor amplitude",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66189-2"
+      }
+    },
+    {
+      "linkId": "mds_3_17_RLE",
+      "text": "Rest tremor amplitude",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66190-0"
+      }
+    },
+    {
+      "linkId": "mds_3_17_LLE",
+      "text": "Rest tremor amplitude",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66191-8"
+      }
+    },
+    {
+      "linkId": "mds_3_17_LipJaw",
+      "text": "Rest tremor amplitude",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "66040-7"
+      }
+    },
+    {
+      "linkId": "mds_4_1",
+      "text": "Time spent with Dyskinesias",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "77703-7"
+      }
+    },
+    {
+      "linkId": "mds_4_2",
+      "text": "functional impact of dyskinesias ",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "77704-5"
+      }
+    },
+    {
+      "linkId": "mds_4_3",
+      "text": "Time spent in the off state",
+      "type": "integer",
+      "code": {
+        "system": "http://loinc.org",
+        "code": "77710-2"
+      }
+    }
+  ]
+}

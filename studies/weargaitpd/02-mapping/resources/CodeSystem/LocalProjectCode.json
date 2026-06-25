@@ -1,0 +1,68 @@
+{
+    "resourceType": "CodeSystem",
+    "url": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+    "version": "1.0.0",
+    "name": "LocalProjectCode",
+    "id": "local-project-code",
+    "status": "active",
+    "content": "complete",
+    "caseSensitive": true,
+    "concept": [
+      {
+        "code": "localptotstatus",
+        "display": "Patient s Physical and Occupational Therapy Status",
+        "definition": "Local code to indicate whether the patient is currently receiving physical and occupational therapy services."
+      },
+      {
+        "code": "localptotfrequency",
+        "display": "Patient s Physical and Occupational Therapy Frequency",
+        "definition": "Local code to indicate the frequency of physical and occupational therapy sessions for the patient."
+      },
+      {
+        "code": "localmdspudrs",
+        "display": "MDS-UPDRS (Movement Disorder Society-sponsored Unified Parkinsons Disease Rating Scale)",
+        "definition": "Local code for the MDS-UPDRS questionnaire, which assesses motor and non-motor symptoms of Parkinson's disease."
+      },
+      {
+        "code": "localmds36r",
+        "display": "MDS-UPDRS 3.6 Right Hand",
+        "definition": "Local code for the subscore of the MDS-UPDRS questionnaire related to pronation and supination movements of the right hand."
+      },
+      {
+        "code": "localmds36l",
+        "display": "MDS-UPDRS 3.6 Left Hand",
+        "definition": "Local code for the subscore of the MDS-UPDRS questionnaire related to pronation and supination movements of the left hand."
+      },
+      {
+        "code": "leftfootcontact",
+        "display": "Left foot contact on ProtoKinetics Zeno Walkway Gait Analysis System",
+        "definition": "Local code for the left foot contact parameter measured by the ProtoKinetics Zeno Walkway Gait Analysis System."
+      },
+      {
+        "code": "walkwayx",
+        "display": "Walkway X",
+        "definition": "Local code for the walkway vector of x-coordinates measured by the ProtoKinetics Zeno Walkway Gait Analysis System."
+      },
+      {
+        "code": "lowerbackaccx",
+        "display": "Lower back acceleration X",
+        "definition": "Local code for the lower back acceleration of the IMU in the X dimension."
+      },
+      {
+        "code": "lowerbackroll",
+        "display": "Lower back roll",
+        "definition": "Local code for the lower back roll in IMU."
+      },
+      {
+        "code": "NoC",
+        "display": "No Contact",
+        "definition": "Local code for the absence of contact in Binary marker (ProtoKinetics Zeno Walkway Gait Analysis System)."
+      },
+      {
+        "code": "YesC",
+        "display": "Yes Contact",
+        "definition": "Local code for the presence of contact in Binary marker (ProtoKinetics Zeno Walkway Gait Analysis System)."
+      }
+    ]
+  }
+  

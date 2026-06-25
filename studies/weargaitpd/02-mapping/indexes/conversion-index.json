@@ -1,0 +1,5 @@
+[ 
+    { "filename": "studies/weargaitpd/01-refinement/json/controls_first_overview.json", "map": "ControlsFirstOverviewToBundle" },
+    { "filename": "studies/weargaitpd/01-refinement/json/pd_first_overview.json", "map": "PdFirstOverviewToBundle" },
+    { "filename": "studies/weargaitpd/01-refinement/json/balance.json", "map": "BalanceFirstOverviewToBundle" }
+]

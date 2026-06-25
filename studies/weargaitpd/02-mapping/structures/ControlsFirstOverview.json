@@ -1,0 +1,109 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ControlsFirstOverview",
+  "url": "http://hl7.org/fhir/StructureDefinition/ControlsFirstOverview",
+  "name": "ControlsFirstOverview",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "ControlsFirstOverview",
+  "extension": [{
+    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+    "valueUri": "http://ahdbservices.it/fhir"
+  }],
+  "snapshot": {
+    "element": [
+      { "id": "ControlsFirstOverview", 
+        "path": "ControlsFirstOverview",
+        "definition": "Logical model for Controls first overview data from CSV file",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "ControlsFirstOverview.patient", 
+        "path": "ControlsFirstOverview.patient",
+        "definition": "ControlsFirstOverview patient",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/PatientInput"
+          }
+        ]
+      },
+      {
+        "id": "ControlsFirstOverview.med", 
+        "path": "ControlsFirstOverview.med",
+        "definition": "ControlsFirstOverview medication",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/MedicationInput"
+          }
+        ]
+      },
+      {
+        "id": "ControlsFirstOverview.obsdem", 
+        "path": "ControlsFirstOverview.obsdem",
+        "definition": "ControlsFirstOverview demographic observation",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/ObservationDemographic"
+          }
+        ]
+      },
+      {
+        "id": "ControlsFirstOverview.obssoc",
+        "path": "ControlsFirstOverview.obssoc",
+        "definition": "ControlsFirstOverview social observation",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/ObservationSocial"
+          }
+        ]
+      },
+      {
+        "id": "ControlsFirstOverview.obssur",
+        "path": "ControlsFirstOverview.obssur",
+        "definition": "ControlsFirstOverview survey observation",
+        "min": 0,
+        "max": 1,
+        "type": [
+            {
+              "code": "http://ahdbservices.it/fhir/StructureDefinition/ObservationSurvey"
+            }
+          ]
+      },
+      {
+        "id": "ControlsFirstOverview.research_time", 
+        "path": "ControlsFirstOverview.research_time",
+        "definition": "Time of research session",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ControlsFirstOverview.questmds", 
+        "path": "ControlsFirstOverview.questmds",
+        "definition": "MDS questionnaire responses",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/QuestionnaireInput"
+          }
+        ]
+      }
+    ]
+  }
+}

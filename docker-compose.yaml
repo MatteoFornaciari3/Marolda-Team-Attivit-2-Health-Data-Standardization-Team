@@ -1,0 +1,18 @@
+services:
+  matchbox:
+    image: europe-west6-docker.pkg.dev/ahdis-ch/ahdis/matchbox:v3.2.2
+    ports:
+      - 8080:8080
+  
+  hapi-fhir-server:
+    image: hapiproject/hapi:latest
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./hapi-fhir-application.yaml:/data/hapi/application.yaml
+      - hapi-data:/data/hapi
+    environment:
+      SPRING_CONFIG_LOCATION: '/data/hapi/application.yaml'
+volumes:
+  hapi-data:
+

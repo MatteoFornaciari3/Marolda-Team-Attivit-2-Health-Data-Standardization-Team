@@ -1,0 +1,42 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PatientInput",
+  "url": "http://ahdbservices.it/fhir/StructureDefinition/PatientInput",
+  "name": "PatientInput",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "PatientInput",
+  "snapshot": {
+    "element": [
+      { 
+        "id": "PatientInput", 
+        "path": "PatientInput",
+        "definition": "Logical model for Patient input data from CSV file",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "PatientInput.subjectid", 
+        "path": "PatientInput.subjectid",
+        "definition": "Patient identifier used to reference the patient",
+        "min": 1,
+        "max": 1,
+        "type": [
+          { "code": "string" }
+        ]
+      },
+      {
+        "id": "PatientInput.sex",
+        "path": "PatientInput.sex",
+        "definition": "Patient's sex",
+        "min": 1,
+        "max": 1,
+        "type": [
+          { "code": "string" }
+        ]
+      }
+    ]
+  }
+}

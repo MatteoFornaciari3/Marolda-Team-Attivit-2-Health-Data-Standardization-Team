@@ -1,0 +1,73 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "BalanceFirstOverview",
+  "url": "http://hl7.org/fhir/StructureDefinition/BalanceFirstOverview",
+  "name": "BalanceFirstOverview",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "BalanceFirstOverview",
+  "extension": [{
+    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+    "valueUri": "http://ahdbservices.it/fhir"
+  }],
+  "snapshot": {
+    "element": [
+      { "id": "BalanceFirstOverview", 
+        "path": "BalanceFirstOverview",
+        "definition": "Logical model for Balance first overview data from CSV single patient file",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "BalanceFirstOverview.patient", 
+        "path": "BalanceFirstOverview.patient",
+        "definition": "BalanceFirstOverview Patient reference",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/PatientSubj"
+          }
+        ]
+      },
+      {
+        "id": "BalanceFirstOverview.acqtime", 
+        "path": "BalanceFirstOverview.acqtime",
+        "definition": "Time of the acquisition",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "BalanceFirstOverview.obsppw", 
+        "path": "BalanceFirstOverview.obsppw",
+        "definition": "BalanceFirstOverview observation ppw",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/ObservationPPW"
+          }
+        ]
+      },
+      {
+        "id": "BalanceFirstOverview.obsimu", 
+        "path": "BalanceFirstOverview.obsimu",
+        "definition": "BalanceFirstOverview observation imu",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/ObservationIMU"
+          }
+        ]
+      }
+    ]
+  }
+}

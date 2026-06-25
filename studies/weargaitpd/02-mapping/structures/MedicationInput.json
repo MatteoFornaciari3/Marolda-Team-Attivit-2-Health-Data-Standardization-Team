@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "MedicationInput",
+  "url": "http://ahdbservices.it/fhir/StructureDefinition/MedicationInput",
+  "name": "MedicationInput",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "MedicationInput",
+  "snapshot": {
+    "element": [
+      { 
+        "id": "MedicationInput", 
+        "path": "MedicationInput",
+        "definition": "Logical model for Medication input data from CSV file",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "MedicationInput.currentmedications", 
+        "path": "MedicationInput.currentmedications",
+        "definition": "List of current medications",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "string" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ObservationDemographic",
+  "url": "http://ahdbservices.it/fhir/StructureDefinition/ObservationDemographic",
+  "name": "ObservationDemographic",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "ObservationDemographic",
+  "snapshot": {
+    "element": [
+      { "id": "ObservationDemographic", 
+        "path": "ObservationDemographic",
+        "definition": "Logical model for Observation demographic data from CSV file",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "ObservationDemographic.weight", 
+        "path": "ObservationDemographic.weight",
+        "definition": "Body Weight in kg",
+        "min": 1,
+        "max": 1,
+        "type": [
+          { "code": "decimal" }
+        ]
+      },
+      {
+        "id": "ObservationDemographic.height",
+        "path": "ObservationDemographic.height",
+        "definition": "Body Height in inches",
+        "min": 1,
+        "max": 1,
+        "type": [
+          { "code": "decimal" }
+        ]
+      },
+      {
+        "id": "ObservationDemographic.age",
+        "path": "ObservationDemographic.age",
+        "definition": "Age of the subject",
+        "min": 1,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      }
+    ]
+  }
+}

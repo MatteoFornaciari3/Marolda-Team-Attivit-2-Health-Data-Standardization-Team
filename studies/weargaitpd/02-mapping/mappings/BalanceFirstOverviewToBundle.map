@@ -1,0 +1,254 @@
+map "http://ahdbservices.it/fhir/StructureMap/BalanceFirstOverviewToBundle" = "BalanceFirstOverviewToBundle"
+
+uses "http://hl7.org/fhir/StructureDefinition/BalanceFirstOverview" alias BalanceFirstOverview as source
+uses "http://hl7.org/fhir/StructureDefinition/Bundle" alias Bundle as target
+uses "http://ahdbservices.it/fhir/StructureDefinition/ObservationPPW" alias ObservationPPW as source
+uses "http://ahdbservices.it/fhir/StructureDefinition/ObservationIMU" alias ObservationIMU as source
+uses "http://ahdbservices.it/fhir/StructureDefinition/PatientSubj" alias PatientSubj as source
+
+
+group main(source src : BalanceFirstOverview, target bundle : Bundle) {
+  src.patient as pt then {
+    pt.subjectid as subjectId ->
+        bundle.type = 'transaction',
+        bundle.entry as e,
+        e.request = create('BackboneElement') as req,
+        req.method = 'PUT',
+        req.url = append('Patient/', subjectId),
+        e.resource = create('Patient') as patient,
+        patient.id = uuid() as uuid,
+        e.fullUrl = append('urn:uuid:', uuid) as pt_uri,
+
+        bundle.entry as e1,
+        e1.request = create('BackboneElement') as req1,
+        req1.url = 'Practitioner',
+        req1.method = 'POST',
+        e1.resource = create('Practitioner') as practitioner,
+        practitioner.id = uuid() as uuid1,
+        practitioner.name = create('HumanName') as pn,
+        pn.use = "usual",
+        pn.family = "Aurelius",
+        pn.given = "Marcus",
+        pn.prefix = "Dr.",
+        e1.fullUrl = append('urn:uuid:', uuid1),
+
+        bundle.entry as e3,
+        e3.request = create('BackboneElement') as req3,
+        req3.url = 'Encounter',
+        req3.method = 'POST',
+        e3.resource = create('Encounter') as encounter,
+        encounter.id = uuid() as uuid3,
+        encounter.serviceProvider = create ('Reference') as service,
+        service.display = "WeargaitPD",
+        encounter.status = "finished",
+        encounter.class = create('Coding') as coding1,
+        coding1.code = "AMB",
+        coding1.system = "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
+        coding1.display = "ambulatory",
+        encounter.subject = create('Reference') as subject,
+        subject.reference = pt_uri,
+        e3.fullUrl = append('urn:uuid:', uuid3) as enc_uri then {
+
+            src.acqtime as acq then {
+
+              src.obsppw as obserppw ->
+                bundle.entry as e2,
+                e2.request = create('BackboneElement') as req2,
+                req2.url = 'Device',
+                req2.method = 'POST',
+                e2.resource = create('Device') as device,
+                device.id = uuid() as uuid2,
+                device.type = create('CodeableConcept') as dc,
+                dc.coding = create('Coding') as coding,
+                coding.code = "PPW",
+                coding.system = "http://ahdbservices.it/fhir/CodeSystem/LocalDeviceCode",
+                e2.fullUrl = append('urn:uuid:', uuid2),
+
+                bundle.entry as e,
+                e.request = create('BackboneElement') as req,
+                req.url = 'Observation',
+                req.method = 'POST',
+                e.resource = create('Observation') as observation,
+                observation.id = uuid() as uuid,
+                observation.component as oc,
+                oc.code = create('CodeableConcept') as cc1,
+                cc1.coding as coding1,
+                coding1.code = "252127002",
+                coding1.system = "http://snomed.info/sct",
+                coding1.display = "Test time",
+                oc.value = create('CodeableConcept') as val,
+                val.text = acq,
+                e.fullUrl = append('urn:uuid:', uuid)
+                then ObstoObservationPPW(obserppw, patient, encounter, practitioner, device, observation);
+
+              src.obsimu as obserimu ->
+                bundle.entry as e2,
+                e2.request = create('BackboneElement') as req2,
+                req2.url = 'Device',
+                req2.method = 'POST',
+                e2.resource = create('Device') as device,
+                device.id = uuid() as uuid2,
+                device.type = create('CodeableConcept') as dc,
+                dc.coding = create('Coding') as coding,
+                coding.code = "IMU",
+                coding.system = "http://ahdbservices.it/fhir/CodeSystem/LocalDeviceCode",
+                e2.fullUrl = append('urn:uuid:', uuid2),
+
+                bundle.entry as e,
+                e.request = create('BackboneElement') as req,
+                req.url = 'Observation',
+                req.method = 'POST',
+                e.resource = create('Observation') as observation,
+                observation.id = uuid() as uuid,
+                observation.component as oc,
+                oc.code = create('CodeableConcept') as cc1,
+                cc1.coding as coding1,
+                coding1.code = "252127002",
+                coding1.system = "http://snomed.info/sct",
+                coding1.display = "Test time",
+                oc.value = create('CodeableConcept') as val,
+                val.text = acq,
+                e.fullUrl = append('urn:uuid:', uuid)
+                then ObstoObservationIMU(obserimu, patient, encounter, practitioner, device, observation);
+            };
+        };
+  };
+}
+
+group ObstoObservationPPW(
+  source bo : ObservationPPW,
+  source patient : Patient,
+  source encounter : Encounter,
+  source practitioner : Practitioner,
+  source device : Device,
+  target observation : Observation
+) {
+    bo -> observation.status = "registered" "Observation status";
+
+    bo -> observation.category = create('CodeableConcept') as cc,
+        cc.text = "Exam",
+        cc.coding = create('Coding') as coding,
+        coding.code = "exam",
+        coding.system = "http://terminology.hl7.org/CodeSystem/observation-category",
+        coding.display = "Exam" "Exam mapping"; 
+
+    bo.l_foot_contact as lfc ->
+      observation.bodySite = create('CodeableConcept') as bs,
+      bs.coding as bscoding,
+      bscoding.code = "22335008",
+      bscoding.system = "http://snomed.info/sct",
+      bscoding.display = "Left foot",
+      observation.component as oc,
+      oc.code = create('CodeableConcept') as cc,
+      cc.coding as coding,
+      coding.code = "leftfootcontact",
+      coding.system = "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+      coding.display = "Left foot contact",
+      oc.value = create('CodeableConcept') as cc1,
+      cc1.coding as vc then {
+        lfc where $this="0.0" ->
+          vc.system = "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+          vc.display = "No contact",
+          vc.code = "NoC" "No contact";
+        lfc where $this="1.0" ->
+          vc.system = "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+          vc.display = "Contact",
+          vc.code = "YesC" "Yes contact";
+      } "L Foot Contact";
+
+    bo.walkway_x as wwx where $this.exists() ->
+      observation.component as oc,
+      oc.code = create('CodeableConcept') as cc,
+      cc.coding as coding,
+      coding.code = "walkwayx",
+      coding.system = "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+      coding.display = "Walkway X",
+      oc.value = create('CodeableConcept') as val,
+      val.text = wwx;
+    
+    patient.id as p_id ->
+      observation.subject = create('Reference') as subj,
+      subj.reference = append("urn:uuid:", p_id);
+
+    encounter.id as enc_id ->
+      observation.encounter = create('Reference') as cont,
+      cont.reference = append("urn:uuid:", enc_id);
+
+    practitioner.id as prac_id ->
+      observation.performer = create('Reference') as perf,
+      perf.reference = append("urn:uuid:", prac_id);
+
+    device.id as dev_id ->
+      observation.device = create('Reference') as dev,
+      dev.reference = append("urn:uuid:", dev_id);
+}
+
+group ObstoObservationIMU(
+  source io : ObservationIMU,
+  source patient : Patient,
+  source encounter : Encounter,
+  source practitioner : Practitioner,
+  source device : Device,
+  target observation : Observation
+) {
+    io -> observation.status = "registered" "Observation status";
+
+    io -> observation.category = create('CodeableConcept') as cc,
+        cc.text = "Exam",
+        cc.coding = create('Coding') as coding,
+        coding.code = "exam",
+        coding.system = "http://terminology.hl7.org/CodeSystem/observation-category",
+        coding.display = "Exam" "Exam mapping"; 
+
+    io.lowerback_acc_x as lbax where $this.exists() ->
+      observation.bodySite = create('CodeableConcept') as bs,
+      bs.coding as bscoding,
+      bscoding.code = "3782205",
+      bscoding.system = "http://snomed.info/sct",
+      bscoding.display = "Lower back",
+      observation.component as oc,
+      oc.code = create('CodeableConcept') as cc,
+      cc.coding as coding,
+      coding.code = "lowerbackaccx",
+      coding.system = "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+      coding.display = "Lower back acceleration X",
+      oc.value = create('Quantity') as val,
+      val.value = lbax,
+      val.unit = "m/s2",
+      val.system = "http://unitsofmeasure.org",
+      val.code = "m/s2";
+
+    io.lowerback_roll as lbr where $this.exists() ->
+      observation.bodySite = create('CodeableConcept') as bs,
+      bs.coding as bscoding,
+      bscoding.code = "3782205",
+      bscoding.system = "http://snomed.info/sct",
+      bscoding.display = "Lower back",
+      observation.component as oc,
+      oc.code = create('CodeableConcept') as cc,
+      cc.coding as coding,
+      coding.code = "lowerbackroll",
+      coding.system = "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+      coding.display = "Lower back roll",
+      oc.value = create('Quantity') as val,
+      val.value = lbr,
+      val.unit = "degrees",
+      val.system = "http://unitsofmeasure.org",
+      val.code = "degrees";
+    
+    patient.id as p_id ->
+      observation.subject = create('Reference') as subj,
+      subj.reference = append("urn:uuid:", p_id);
+
+    encounter.id as enc_id ->
+      observation.encounter = create('Reference') as cont,
+      cont.reference = append("urn:uuid:", enc_id);
+
+    practitioner.id as prac_id ->
+      observation.performer = create('Reference') as perf,
+      perf.reference = append("urn:uuid:", prac_id);
+
+    device.id as dev_id ->
+      observation.device = create('Reference') as dev,
+      dev.reference = append("urn:uuid:", dev_id);
+}

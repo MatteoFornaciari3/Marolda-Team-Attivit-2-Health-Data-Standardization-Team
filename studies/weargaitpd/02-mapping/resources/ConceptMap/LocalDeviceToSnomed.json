@@ -1,0 +1,37 @@
+{
+    "resourceType": "ConceptMap",
+    "url": "http://ahdbservices.it/fhir/ConceptMap/LocalDeviceToSnomed",
+    "name": "LocalDeviceToSnomed",
+    "id": "local-device-to-snomed",
+    "status": "active",
+    "sourceUri": "http://ahdbservices.it/fhir/ValueSet/LocalDeviceCategories",
+    "targetUri": "http://snomed.info/sct",
+    "group": [
+        {
+            "source": "http://ahdbservices.it/fhir/CodeSystem/LocalDeviceCode",
+            "target": "http://snomed.info/sct",
+            "element": [
+                {
+                    "code": "PPW",
+                    "target": [
+                        {
+                            "code": "408746007",
+                            "equivalence": "relatedto",
+                            "comment": "ProtoKinetics Zeno Walkway Gait Analysis System is related to the SNOMED CT sensor device concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "IMU",
+                    "target": [
+                        {
+                            "code": "408746007",
+                            "equivalence": "relatedto",
+                            "comment": "Movella/Xsens MTw Awinda Inertial Measurement Units (IMUs) is related to the SNOMED CT sensor device concept but they are not equivalent."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

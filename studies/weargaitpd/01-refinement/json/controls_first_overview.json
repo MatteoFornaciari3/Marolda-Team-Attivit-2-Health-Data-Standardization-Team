@@ -1,0 +1,4762 @@
+[
+  {
+    "patient": {
+      "subjectid": "NLS145",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 73.0,
+      "height": 67.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:35:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 3.0,
+      "mds_3_3_lle": 3.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 2.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 2.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "NLS193",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 78.0,
+      "height": 69.0,
+      "age": 74.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:10:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 2.0,
+      "mds_3_3_lle": 2.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 6.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "NLS207",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 66.0,
+      "height": 64.0,
+      "age": 50.0
+    },
+    "obssur": {
+      "moca_score": 30.0
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:35:00",
+    "med": {
+      "currentmedications": "fluticasone propionate (FLONASE) 50 mcg/actuation nasal spray 2 sprays by Each Nare route daily."
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC015",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 102.0,
+      "height": 73.0,
+      "age": 82.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:15:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC016",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 82.0,
+      "height": 69.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "0.25x/week"
+    },
+    "research_time": "2026-06-25T08:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC017",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 71.0,
+      "height": 64.0,
+      "age": 70.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T15:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC018",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 68.0,
+      "height": 66.0,
+      "age": 68.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T14:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC019",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 108.0,
+      "height": 77.0,
+      "age": 70.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "2x/week"
+    },
+    "research_time": "2026-06-25T08:30:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 1.0,
+      "mds_3_3_lue": 1.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": null,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 1.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 1.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC020",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 73.0,
+      "height": 68.0,
+      "age": 62.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T14:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC021",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 75.0,
+      "height": 65.0,
+      "age": 71.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:30:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC022",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 93.0,
+      "height": 69.0,
+      "age": 51.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": null,
+      "frequency_pt_ot": "0.25x/week"
+    },
+    "research_time": "2026-06-25T09:15:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 1.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC024",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 88.0,
+      "height": 62.0,
+      "age": 71.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": "2x/week"
+    },
+    "research_time": "2026-06-25T14:30:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": null,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 1.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 1.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC025",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 82.0,
+      "height": 72.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "2x/week"
+    },
+    "research_time": "2026-06-25T09:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 1.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 1.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC026",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 100.0,
+      "height": 72.0,
+      "age": 68.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:30:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 1.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC027",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 106.0,
+      "height": 78.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:35:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 1.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 1.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 1.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 1.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 1.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC029",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 73.0,
+      "height": 71.0,
+      "age": 79.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "1x/week"
+    },
+    "research_time": "2026-06-25T11:30:00",
+    "med": {
+      "currentmedications": "Amiodarone (daily)"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC030",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 99.0,
+      "height": 68.0,
+      "age": 70.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "1x/week"
+    },
+    "research_time": "2026-06-25T13:30:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 1.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC031",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 111.0,
+      "height": 75.0,
+      "age": 63.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T15:30:00",
+    "med": {
+      "currentmedications": "Unspecified blood pressure medication"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 1.0,
+      "mds_3_3_lle": 1.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 1.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC032",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 104.0,
+      "height": 67.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:00:00",
+    "med": {
+      "currentmedications": "Gabapentia (3x100mg/day), atenolol (40 mg/day), atorvastatin, fuorosemide, lethoxithorin (40 mg/day)"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC033",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 90.0,
+      "height": 68.0,
+      "age": 56.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "1x/week"
+    },
+    "research_time": "2026-06-25T09:30:00",
+    "med": {
+      "currentmedications": "Astatin, Atorvastatin (10 mg)"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC124",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 59.0,
+      "height": 61.5,
+      "age": 72.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:30:00",
+    "med": {
+      "currentmedications": "Glucosamine, Fish oil"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC125",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 80.0,
+      "height": 62.1,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "2x/week"
+    },
+    "research_time": "2026-06-25T12:22:00",
+    "med": {
+      "currentmedications": "Pantoprazole 40MG, Warfarin Sodium 2MG, Hydroxyurea 500MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC126",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 78.0,
+      "height": 69.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:40:00",
+    "med": {
+      "currentmedications": "Diltiazem hydrochloride 120MG, Losartan, Singulair, Gabapentin 300MG, Atorvastatin 10MG, Restasis, Albuterol 0.09MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 1.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC127",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 117.0,
+      "height": 71.0,
+      "age": 83.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "2x/week"
+    },
+    "research_time": "2026-06-25T11:20:00",
+    "med": {
+      "currentmedications": "Acetaminophen 500MG, Albuterol 90MCG, Amiodarone 200MG, Apixaban 5MG, Aspirin 81MG, Atorvastatin 80MG, Azithromycin 250MG, Calcitriol 0.25MCG, Vitamin D3 1000ICU, Ciclopirox 8% Solution, Ubinquinol, Vitamin B12 1000MCG, Glucosamine-chondroitin 500-400MG, Atrovent 21MCG, Nizoral 2%"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 2.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 2.0,
+      "mds_3_3_lle": 2.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 2.0,
+      "mds_3_10": 3.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC128",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 81.6,
+      "height": 63.0,
+      "age": 79.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:15:00",
+    "med": {
+      "currentmedications": "Amlodipine, Synthroid, Aspirin, Ezetimibe 10MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 2.0,
+      "mds_3_3_lle": 2.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC129",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 49.8,
+      "height": 63.0,
+      "age": 88.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:44:00",
+    "med": {
+      "currentmedications": "Ezetimibe 10MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 4.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 3.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC130",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 75.3,
+      "height": 61.0,
+      "age": 77.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:45:00",
+    "med": {
+      "currentmedications": "Acyclovir, Amlodipine 5MG, Asiprin 81MG, Cholecalciferol, Fluoxetine 20MG, Flonase, Levothyroxine, Memantine, Rogaine, Simvastatin 20MG, Valium, Terazosin 2MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 4.0,
+      "mds_3_4_l": 3.0,
+      "mds_3_5_r": 2.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 3.0,
+      "mds_3_8_l": 2.0,
+      "mds_3_9": 2.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 4.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 2.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC132",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 78.0,
+      "height": 66.0,
+      "age": 75.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "7x/week"
+    },
+    "research_time": "2026-06-25T09:30:00",
+    "med": {
+      "currentmedications": "Trazodone, Venlafaxine, Effexor, Flomax, Buspirone, Lipitor"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 4.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 1.0,
+      "mds_3_15_L": 1.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC133",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 54.0,
+      "height": 59.0,
+      "age": 90.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:05:00",
+    "med": {
+      "currentmedications": "Levothyroxine, Lisinopril 20MG, Nifedipine 60MG, Simvastatin, Aspirin 81MG"
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 4.0,
+      "mds_3_3_rue": 4.0,
+      "mds_3_3_lue": 4.0,
+      "mds_3_3_rle": 4.0,
+      "mds_3_3_lle": 4.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 2.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 3.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 1.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 2.0,
+      "mds_3_14": 1.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC134",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 54.0,
+      "height": 47.0,
+      "age": 91.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:40:00",
+    "med": {
+      "currentmedications": "Atorvastatin 20MG, Pantoprazole 40MG"
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 2.0,
+      "mds_3_4_l": 3.0,
+      "mds_3_5_r": 2.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 2.0,
+      "mds_3_6_l": 2.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 4.0,
+      "mds_3_14": 2.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC135",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 77.1,
+      "height": 70.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:50:00",
+    "med": {
+      "currentmedications": "Tadalafil 5MG, Tylenol, Acetaminophen 250MG, Aspirin 325MG, Benicar"
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC136",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 83.0,
+      "height": 63.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:30:00",
+    "med": {
+      "currentmedications": "Atenolol 50MG, Losartan 50MG, Eliquis 5MG, Levothyroxine 125MG, Metformin 1000MG"
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 2.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 2.0,
+      "mds_3_10": 3.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 3.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC137",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 95.0,
+      "height": 62.0,
+      "age": 69.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:36:00",
+    "med": {
+      "currentmedications": "Meloxicam, Ubiquinol 100MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 1.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 2.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC138",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 73.0,
+      "height": 63.0,
+      "age": 87.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:51:00",
+    "med": {
+      "currentmedications": "Hydrodiuril 12.5MG, Latanoprost 0.005%, Losartan 50MG, Mupirocin 2%, Oxybutyin 10MG, Preservision Areds Oral, Vesicare 10MG, Timoptic 0.5%, Urea 40%"
+    },
+    "questmds": {
+      "mds_3_1": 2.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 2.0,
+      "mds_3_4_l": 2.0,
+      "mds_3_5_r": 2.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 2.0,
+      "mds_3_6_l": 3.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC139",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 83.0,
+      "height": 63.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:50:00",
+    "med": {
+      "currentmedications": "Aspirin 81MG, Lipitor 80MG, Basaglar KwikPen U-100 Insulin, Brimonidine 0.15%, Colace 100MG, Dorzolamide 2%, Jardiance 10MG, Entresto 24-26MG, ferrous Sulfate 325MG, Lasix 20MG, Advil 400MG, Xalatan 0.005%, Metformin 850MG, Toprol-XL 25MG, Prilosec 40MG, Aldactone 25MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 2.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 2.0,
+      "mds_3_6_l": 2.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 1.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC140",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 61.0,
+      "height": 60.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:40:00",
+    "med": {
+      "currentmedications": "Zoloft, Lisinopril, Humalog, Pravastatin"
+    },
+    "questmds": {
+      "mds_3_1": 2.0,
+      "mds_3_2": 2.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 3.0,
+      "mds_3_4_l": 2.0,
+      "mds_3_5_r": 4.0,
+      "mds_3_5_l": 3.0,
+      "mds_3_6_r": 2.0,
+      "mds_3_6_l": 2.0,
+      "mds_3_8_r": 2.0,
+      "mds_3_8_l": 2.0,
+      "mds_3_9": 3.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 3.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 1.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 1.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC141",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 120.0,
+      "height": 66.0,
+      "age": 73.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 2.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC142",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 73.0,
+      "height": 70.0,
+      "age": 85.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:25:00",
+    "med": {
+      "currentmedications": "Brilinta, Metoprolol, Jardiance, Valsartan, atorvastatin 40MG, Sertraline 50MG, spironolactone"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 2.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC143",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 75.0,
+      "height": 63.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:25:00",
+    "med": {
+      "currentmedications": "Candesartan, amlodipine, tramadol, diclofenac"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC144",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 103.0,
+      "height": 66.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:20:00",
+    "med": {
+      "currentmedications": "Vitamin D, Vitamin C"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 2.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC145",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 95.0,
+      "height": 64.0,
+      "age": 66.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "2x/week"
+    },
+    "research_time": "2026-06-25T11:10:00",
+    "med": {
+      "currentmedications": "Atorvastatin 40MG, Losartan, Aspirin 81MG, pantoprazole, 40mg, metformin, celecoxib, methocarbamol 500mg"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 3.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC147",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 123.0,
+      "height": 66.0,
+      "age": 74.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:28:00",
+    "med": {
+      "currentmedications": "apixaban 5mg, lisinopril 20mg, metoprolol 10mg, nifedipine 30mg, pravastatin 80mg"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC148",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 89.0,
+      "height": 65.0,
+      "age": 79.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:08:00",
+    "med": {
+      "currentmedications": "levothyroxine, clairitin, simvastatin 20mg, acetaminophen 650mg"
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 1.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 2.0,
+      "mds_3_6_l": 2.0,
+      "mds_3_8_r": 2.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 2.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 1.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC149",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 69.0,
+      "height": 63.0,
+      "age": 84.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:19:00",
+    "med": {
+      "currentmedications": "Synthroid 75mcg, nystatin powder, pravastatin 20MG, Zoloft 25MG, Aristocort 0.025% cream"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 1.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 2.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC150",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 65.0,
+      "height": 61.0,
+      "age": 84.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:30:00",
+    "med": {
+      "currentmedications": "Simvastatin 40mg, aspirin 81mg"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 1.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 1.0,
+      "mds_3_10": 3.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 1.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC151",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 77.0,
+      "height": 68.0,
+      "age": 78.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "2x/week"
+    },
+    "research_time": "2026-06-25T11:00:00",
+    "med": {
+      "currentmedications": "gabapentin, pantoprazole, lisinopril, glipizide 10mg, famotidine 40mg, ciclopirox, lipitor 40mg, amlodipine, furosemide 20mg"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 1.0,
+      "mds_3_3_rle": 3.0,
+      "mds_3_3_lle": 3.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 3.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 3.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC153",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 88.5,
+      "height": 63.0,
+      "age": 81.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:53:00",
+    "med": {
+      "currentmedications": "Ozempic 2mg shot, tresbia 64u, novalog 10u, metformin xr 500mg, latanoprost 0.005%, aspirin 81mg, atorvastatin 40mg, metoprolol 25mg, vitamin c 500mg, vitamin d3"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 2.0,
+      "mds_3_4_l": 2.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 2.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 2.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC154",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 88.5,
+      "height": 62.0,
+      "age": 85.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "YES",
+      "frequency_pt_ot": "1x/week"
+    },
+    "research_time": "2026-06-25T12:06:00",
+    "med": {
+      "currentmedications": "fish oil, cymbalta 30mg, epipen 0.3mg, insulin lispro, lialda 1.2gram, prednisone 5mg,"
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 1.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 3.0,
+      "mds_3_3_lle": 3.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 2.0,
+      "mds_3_6_r": 1.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 3.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 4.0,
+      "mds_3_13": 2.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC007",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 81.0,
+      "height": 72.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC008",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 66.0,
+      "height": 64.5,
+      "age": 79.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T15:30:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC009",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 98.0,
+      "height": 68.0,
+      "age": 68.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:15:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC010",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 81.0,
+      "height": 67.0,
+      "age": 58.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T14:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC011",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 93.0,
+      "height": 72.0,
+      "age": 78.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC012",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 79.0,
+      "height": 67.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC013",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 61.0,
+      "height": 65.0,
+      "age": 78.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC014",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 66.0,
+      "height": 66.0,
+      "age": 62.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T14:15:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC100",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 57.0,
+      "height": 65.0,
+      "age": 78.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": null,
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:20:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC101",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 70.0,
+      "height": 67.0,
+      "age": 85.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": null,
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:00:00",
+    "med": {
+      "currentmedications": "Losartan, Atorvastatin 10MG, Metformin, Triamterene"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC102",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 68.0,
+      "height": 65.0,
+      "age": 85.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": null,
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:00:00",
+    "med": {
+      "currentmedications": "Synthroid, Lisinopril, Pravastatin, Amlodipine, Atenolol 100MG"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC104",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 82.0,
+      "height": 73.0,
+      "age": 73.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:00:00",
+    "med": {
+      "currentmedications": "Metronidazole, Ketoconazole, Tadalafil"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC103",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 80.0,
+      "height": 70.0,
+      "age": 72.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:40:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC105",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 105.0,
+      "height": 70.0,
+      "age": 69.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:43:00",
+    "med": {
+      "currentmedications": "Simvastatin 40MG, Lisinopril 20MG, Metformin, Latanoprost, Brimonidine tartrate, Krill oil"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC106",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 87.0,
+      "height": 70.0,
+      "age": 77.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:54:00",
+    "med": {
+      "currentmedications": "Levothyroxine .112 MCG, Atorvastatin 20MG, Alfuzosin 10MG, Baby Aspirin 81MG, CoQ10 100MG, Oseto Bi-Flex, Biotin 10000 MCG, Iron Citrate 25MG, Flaxseed oil 720 MG, Probiotic, Fisetin 100MG, Centrum Silver, Tumeric Curcumin 1950 MG"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC108",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 103.0,
+      "height": 86.0,
+      "age": 86.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:30:00",
+    "med": {
+      "currentmedications": "Fenofibrate 145 MG, Metformin, Lisinopril 20MG, Pravastatin, Amlodipine 5MG, Vitamin D3, Aspirin, Fish oil"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC107",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 98.0,
+      "height": 66.0,
+      "age": 84.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T14:13:00",
+    "med": {
+      "currentmedications": "Metformin ER 500MG, Glimepiride 4MG, Januvia 100MG, Simvastatin 20MG, Valsartan 160MG, Gabapentin 100MG, Colestipol 1MG, Citrucel, Immodium AD, Vitamin D 2000ICU, Fish oil 1200MG, Viactiv, Aspirin 81MG, PreserVision Vitamin"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC109",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 74.0,
+      "height": 72.0,
+      "age": 73.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:45:00",
+    "med": {
+      "currentmedications": "Methotrexate, Humira, Niacin, Folic Acid"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC110",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 69.0,
+      "height": 62.0,
+      "age": 70.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:20:00",
+    "med": {
+      "currentmedications": "No Medications"
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC111",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 64.0,
+      "height": 60.0,
+      "age": 79.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:00:00",
+    "med": {
+      "currentmedications": "Aspirin 81MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 1.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 1.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC112",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 64.0,
+      "height": 60.0,
+      "age": 78.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:20:00",
+    "med": {
+      "currentmedications": "Losartan, Rosuvastatin 5MG, Levothyroxine, Metoprolol, Gabapentin"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 1.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 1.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC113",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 46.0,
+      "height": 65.0,
+      "age": 85.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T13:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC114",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 54.0,
+      "height": 65.0,
+      "age": 77.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:00:00",
+    "med": {
+      "currentmedications": "Zyrtec"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC115",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 77.0,
+      "height": 61.0,
+      "age": 76.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:15:00",
+    "med": {
+      "currentmedications": "Estradiol Transdermal 0.05MG, Celebrex 200MG, Nexium 40MG, Losartan 50Mg, HCTZ 25MG, Levythyroxine 75MCG, Vitamin D 50MCG, Baby Aspirin 81MG, Gabapentin 600MG, Flonase spray 50MCG, Tylenol PM, Pre/Pro Biotic gummies"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 2.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 1.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC116",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 85.0,
+      "height": 71.0,
+      "age": 78.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:20:00",
+    "med": {
+      "currentmedications": "Atorvastatin 40MG, Omeprazole 20MG, Lisinopril 30MG, Aspirin 81 MG, Indomethacin"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 1.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 1.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 1.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 1.0,
+      "mds_3_15_L": 1.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC117",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 74.8,
+      "height": 66.5,
+      "age": 75.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:00:00",
+    "med": {
+      "currentmedications": "Verapamil ER 180MG, Eliquis 5MG, Losartan Potassium 50MG, Sidenafil 80MG, Alprazolam .25MG, Melatonin, Lunesta 3MG, Zolpidem 12.5, Acidphilus Magnesium Citrate 150MG"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC118",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 72.1,
+      "height": 65.0,
+      "age": 76.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:09:00",
+    "med": {
+      "currentmedications": "Levothyroxine, Lisinopril, Metformin, Lovastatin, Basaglar, Hydrochlorothiazide"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC120",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 61.0,
+      "height": 65.0,
+      "age": 74.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:00:00",
+    "med": {
+      "currentmedications": "Propranolol, Venlafaxine 75MG"
+    },
+    "questmds": {
+      "mds_3_1": 1.0,
+      "mds_3_2": 2.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 2.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 1.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC121",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 74.0,
+      "height": 67.0,
+      "age": 82.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T11:45:00",
+    "med": {
+      "currentmedications": "Tamsulosin, Benicar, Nesium, Hydrochlorothiazide, Escitalopram 20MG, Atorvastatin 10MG, Verapamil, Levothyroxine, Valacyclovir 500MG, Nasonex"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 1.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC122",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 63.0,
+      "height": 62.0,
+      "age": 73.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:50:00",
+    "med": {
+      "currentmedications": "Viibyrd, Losartan, Imuran, Simvastatin 20MG, Benicar, Prilosec"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 1.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 0.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 0.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "HC123",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 119.0,
+      "height": 63.5,
+      "age": 73.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:45:00",
+    "med": {
+      "currentmedications": "Duloxetine 60MG, Gabapentin, Losartan Potassium 50MG, Metoprolol Tartrate 50MG, Pantoprazole 40MG, Aspirin 81MG, Naproxen Sodium 220MG, Furosemide"
+    },
+    "questmds": {
+      "mds_3_1": 0.0,
+      "mds_3_2": 0.0,
+      "mds_3_3_neck": 0.0,
+      "mds_3_3_rue": 0.0,
+      "mds_3_3_lue": 0.0,
+      "mds_3_3_rle": 0.0,
+      "mds_3_3_lle": 0.0,
+      "mds_3_4_r": 0.0,
+      "mds_3_4_l": 0.0,
+      "mds_3_5_r": 0.0,
+      "mds_3_5_l": 0.0,
+      "mds_3_6_r": 0.0,
+      "mds_3_6_l": 0.0,
+      "mds_3_8_r": 0.0,
+      "mds_3_8_l": 0.0,
+      "mds_3_9": 1.0,
+      "mds_3_10": 0.0,
+      "mds_3_11": 0.0,
+      "mds_3_12": 0.0,
+      "mds_3_13": 1.0,
+      "mds_3_14": 0.0,
+      "mds_3_15_R": 0.0,
+      "mds_3_15_L": 0.0,
+      "mds_3_17_RUE": 0.0,
+      "mds_3_17_LUE": 0.0,
+      "mds_3_17_RLE": 0.0,
+      "mds_3_17_LLE": 0.0,
+      "mds_3_17_LipJaw": 0.0,
+      "mds_4_1": 0.0,
+      "mds_4_2": 0.0,
+      "mds_4_3": 0.0
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC001",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 88.4,
+      "height": 73.0,
+      "age": 67.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC002",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 92.5,
+      "height": 69.0,
+      "age": 76.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC003",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 78.0,
+      "height": 65.0,
+      "age": 49.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:20:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC004",
+      "sex": "Male"
+    },
+    "obsdem": {
+      "weight": 79.4,
+      "height": 71.0,
+      "age": 77.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T12:30:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC005",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 56.7,
+      "height": 64.0,
+      "age": 47.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T09:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  },
+  {
+    "patient": {
+      "subjectid": "WHC006",
+      "sex": "Female"
+    },
+    "obsdem": {
+      "weight": 74.8,
+      "height": 64.5,
+      "age": 63.0
+    },
+    "obssur": {
+      "moca_score": null
+    },
+    "obssoc": {
+      "pt_ot_status": "NO",
+      "frequency_pt_ot": null
+    },
+    "research_time": "2026-06-25T10:00:00",
+    "med": {
+      "currentmedications": null
+    },
+    "questmds": {
+      "mds_3_1": null,
+      "mds_3_2": null,
+      "mds_3_3_neck": null,
+      "mds_3_3_rue": null,
+      "mds_3_3_lue": null,
+      "mds_3_3_rle": null,
+      "mds_3_3_lle": null,
+      "mds_3_4_r": null,
+      "mds_3_4_l": null,
+      "mds_3_5_r": null,
+      "mds_3_5_l": null,
+      "mds_3_6_r": null,
+      "mds_3_6_l": null,
+      "mds_3_8_r": null,
+      "mds_3_8_l": null,
+      "mds_3_9": null,
+      "mds_3_10": null,
+      "mds_3_11": null,
+      "mds_3_12": null,
+      "mds_3_13": null,
+      "mds_3_14": null,
+      "mds_3_15_R": null,
+      "mds_3_15_L": null,
+      "mds_3_17_RUE": null,
+      "mds_3_17_LUE": null,
+      "mds_3_17_RLE": null,
+      "mds_3_17_LLE": null,
+      "mds_3_17_LipJaw": null,
+      "mds_4_1": null,
+      "mds_4_2": null,
+      "mds_4_3": null
+    },
+    "resourceType": "ControlsFirstOverview"
+  }
+]

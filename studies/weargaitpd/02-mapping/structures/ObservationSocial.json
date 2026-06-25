@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ObservationSocial",
+  "url": "http://ahdbservices.it/fhir/StructureDefinition/ObservationSocial",
+  "name": "ObservationSocial",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "ObservationSocial",
+  "snapshot": {
+    "element": [
+      { "id": "ObservationSocial", 
+        "path": "ObservationSocial",
+        "definition": "Logical model for Observation social data from CSV file",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "ObservationSocial.pt_ot_status",
+        "path": "ObservationSocial.pt_ot_status",
+        "definition": "Whether the subject is currently receiving physical therapy or occupational therapy",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "string" }
+        ]
+      },
+      {
+        "id": "ObservationSocial.frequency_pt_ot",
+        "path": "ObservationSocial.frequency_pt_ot",
+        "definition": "Frequency of physical therapy or occupational therapy sessions (e.g. number of sessions per week)",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "string" }
+        ]
+      }
+    ]
+  }
+}

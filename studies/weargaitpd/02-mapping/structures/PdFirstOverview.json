@@ -1,0 +1,98 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PdFirstOverview",
+  "url": "http://hl7.org/fhir/StructureDefinition/PdFirstOverview",
+  "name": "PdFirstOverview",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "PdFirstOverview",
+  "extension": [{
+    "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-namespace",
+    "valueUri": "http://ahdbservices.it/fhir"
+  }],
+  "snapshot": {
+    "element": [
+      { 
+        "id": "PdFirstOverview", 
+        "path": "PdFirstOverview",
+        "definition": "Logical model for Pd first overview data from CSV file",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "id": "PdFirstOverview.patient", 
+        "path": "PdFirstOverview.patient",
+        "definition": "PdFirstOverview patient",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/PatientInput"
+          }
+        ]
+      },
+      {
+        "id": "PdFirstOverview.med", 
+        "path": "PdFirstOverview.med",
+        "definition": "PdFirstOverview medication",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/MedicationInput"
+          }
+        ]
+      },
+      {
+        "id": "PdFirstOverview.obsdem", 
+        "path": "PdFirstOverview.obsdem",
+        "definition": "PdFirstOverview demographic observation",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/ObservationDemographic"
+          }
+        ]
+      },
+      {
+        "id": "PdFirstOverview.obssoc", 
+        "path": "PdFirstOverview.obssoc",
+        "definition": "PdFirstOverview social observation",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/ObservationSocial"
+          }
+        ]
+      },
+      {
+        "id": "PdFirstOverview.research_time", 
+        "path": "PdFirstOverview.research_time",
+        "definition": "Time of research session",
+        "min": 1,
+        "max": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "PdFirstOverview.questmds", 
+        "path": "PdFirstOverview.questmds",
+        "definition": "MDS questionnaire responses",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "http://ahdbservices.it/fhir/StructureDefinition/QuestionnaireInput"
+          }
+        ]
+      }
+    ]
+  }
+}

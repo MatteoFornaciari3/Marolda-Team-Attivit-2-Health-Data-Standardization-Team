@@ -1,0 +1,82 @@
+{
+    "resourceType": "ValueSet",
+    "url": "http://ahdbservices.it/fhir/ValueSet/LocalObservationCategories",
+    "name": "LocalObservationCategories",
+    "id": "local-observation-categories",
+    "status": "active",
+    "compose": {
+      "include": [
+        {
+          "system": "http://snomed.info/sct",
+          "concept": [
+            {
+              "code": "722138006",
+              "display": "SNOMED CT Physiotherapy (qualifier value for status)"
+            },
+            {
+              "code": "310093001",
+              "display":"SNOMED CT Occupational therapy service (qualifier value for status)"
+            },
+            {
+              "code": "91251008",
+              "display": "SNOMED CT  Physical therapy procedure (regime/therapy for frequency) "
+            },
+            {
+              "code": "84478008",
+              "display": "SNOMED CT Occupational therapy (regime/therapy for frequency)"
+            },
+            {
+              "code": "298303005",
+              "display": "Observation of measures of gait"
+            },
+            {
+              "code": "252116004",
+              "display": "Observation parameter"
+            },
+            {
+              "code": "285692001",
+              "display": "Weight-bears on left leg"
+            }
+          ]
+        },
+        {
+          "system": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+          "concept": [
+            {
+              "code": "localptotstatus",
+              "display": "Local PTOT status"
+            },
+            {
+              "code": "localptotfrequency",
+              "display": "Local PTOT frequency"
+            },
+            {
+              "code": "leftfootcontact",
+              "display": "Left foot contact"
+            },
+            {
+              "code": "walkwayx",
+              "display": "Walkway X"
+            },
+            {
+              "code": "lowerbackaccx",
+              "display": "Lower back acceleration X"
+            },
+            {
+              "code": "lowerbackroll",
+              "display": "Lower back roll"
+            },
+            {
+              "code": "NoC",
+              "display": "No Contact"
+            },
+            {
+              "code": "YesC",
+              "display": "Yes Contact"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

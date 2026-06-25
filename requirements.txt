@@ -1,0 +1,4 @@
+ipython==8.20.0
+jupyter==1.0.0
+pandas==2.2.0
+more-itertools==10.2.0

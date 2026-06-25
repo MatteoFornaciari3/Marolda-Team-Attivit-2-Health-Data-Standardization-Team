@@ -1,0 +1,46 @@
+{
+    "resourceType": "ValueSet",
+    "url": "http://ahdbservices.it/fhir/ValueSet/LocalQuestionnaireCategories",
+    "name": "LocalQuestionnaireCategories",
+    "id": "local-questionnaire-categories",
+    "status": "active",
+    "compose": {
+      "include": [
+        {
+          "system": "http://loinc.org",
+          "concept": [
+            {
+              "code": "77717-7",
+              "display": "Unified Parkinson's Disease Rating Scale (UPDRS)"
+            },
+            {
+              "code": "65699-1",
+              "display": "Rapidly alternating movements of hands - right hand"
+            },
+            {
+              "code": "65700-7",
+              "display": "Rapidly alternating movements of hands - left hand"
+            }
+          ]
+        },
+        {
+          "system": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+          "concept": [
+            {
+              "code": "localmdspudrs",
+              "display": "Local MDSUPDRS"
+            },
+            {
+              "code": "localmds36r",
+              "display": "Local MDS36R"
+            },
+            {
+              "code": "localmds36l",
+              "display": "Local MDS36L"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "resourceType": "CodeSystem",
+    "url": "http://ahdbservices.it/fhir/CodeSystem/LocalDeviceCode",
+    "version": "1.0.0",
+    "name": "LocalDeviceCode",
+    "id": "local-device-code",
+    "status": "active",
+    "content": "complete",
+    "caseSensitive": true,
+    "concept": [
+      {
+        "code": "PPW",
+        "display": "ProtoKinetics Zeno Walkway Gait Analysis System",
+        "definition": "Local code to indicate the 16-foot x 2-foot ProtoKinetics Zeno Walkway Gait Analysis System."
+      },
+      {
+        "code": "IMU",
+        "display": "Movella/Xsens MTw Awinda Inertial Measurement Units (IMUs)",
+        "definition": "Local code to indicate the Movella/Xsens MTw Awinda Inertial Measurement Units (IMUs)."
+      }
+    ]
+  }
+  

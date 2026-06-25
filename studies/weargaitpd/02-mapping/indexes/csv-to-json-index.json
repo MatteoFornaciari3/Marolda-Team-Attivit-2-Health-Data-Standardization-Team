@@ -1,0 +1,5 @@
+[
+  {"name": "controls_first_overview", "file_path": "studies/weargaitpd/01-refinement/clean/controls_first_overview.clean.csv", "resourceType": "ControlsFirstOverview", "columns_with_list": [] },
+  {"name": "pd_first_overview", "file_path": "studies/weargaitpd/01-refinement/clean/pd_first_overview.clean.csv", "resourceType": "PdFirstOverview", "columns_with_list": [] },
+  {"name": "balance", "file_path": "studies/weargaitpd/01-refinement/clean/balance.clean.csv", "resourceType": "BalanceFirstOverview", "columns_with_list": [] }
+]

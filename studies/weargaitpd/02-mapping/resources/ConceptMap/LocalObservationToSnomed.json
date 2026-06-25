@@ -1,0 +1,107 @@
+{
+    "resourceType": "ConceptMap",
+    "url": "http://ahdbservices.it/fhir/ConceptMap/LocalObservationToSnomed",
+    "name": "LocalObservationToSnomed",
+    "id": "local-observation-to-snomed",
+    "status": "active",
+    "sourceUri": "http://ahdbservices.it/fhir/ValueSet/LocalObservationCategories",
+    "targetUri": "http://snomed.info/sct",
+    "group": [
+        {
+            "source": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+            "target": "http://snomed.info/sct",
+            "element": [
+                {
+                    "code": "localptotstatus",
+                    "target": [
+                        {
+                            "code": "722138006",
+                            "equivalence": "relatedto",
+                            "comment": "Local PTOT status is related to the SNOMED CT Physiotherapy concept but it is not equivalent."
+                        },
+                        {
+                            "code": "310093001",
+                            "equivalence": "relatedto",
+                            "comment": "Local PTOT status is related to the SNOMED CT Occupational therapy service concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "localptotfrequency",
+                    "target": [
+                        {
+                            "code": "91251008",
+                            "equivalence": "relatedto",
+                            "comment": "Local PTOT frequency is related to the SNOMED CT Physical therapy procedure concept but it is not equivalent."
+                        },
+                        {
+                            "code": "84478008",
+                            "equivalence": "relatedto",
+                            "comment": "Local PTOT frequency is related to the SNOMED CT Occupational therapy concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "leftfootcontact",
+                    "target": [
+                        {
+                            "code": "298303005",
+                            "equivalence": "relatedto",
+                            "comment": "Left foot contact is related to the SNOMED CT Observation of measures of gait concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "walkwayx",
+                    "target": [
+                        {
+                            "code": "252116004",
+                            "equivalence": "relatedto",
+                            "comment": "walkwayx is related to the SNOMED CT Observation parameter concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "lowerbackaccx",
+                    "target": [
+                        {
+                            "code": "252116004",
+                            "equivalence": "relatedto",
+                            "comment": "lowerbackaccx is related to the SNOMED CT Observation parameter concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "lowerbackroll",
+                    "target": [
+                        {
+                            "code": "252116004",
+                            "equivalence": "relatedto",
+                            "comment": "lowerbackroll is related to the SNOMED CT Observation parameter concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "NoC",
+                    "target": [
+                        {
+                            "code": "285692001",
+                            "equivalence": "relatedto",
+                            "comment": "No contact is related to the SNOMED CT Weight-bears on left leg concept but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "YesC",
+                    "target": [
+                        {
+                            "code": "285692001",
+                            "equivalence": "relatedto",
+                            "comment": "Yes contact is related to the SNOMED CT Weight-bears on left leg concept but it is not equivalent."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "resourceType": "ConceptMap",
+    "url": "http://ahdbservices.it/fhir/ConceptMap/LocalQuestionnaireToLoinc",
+    "name": "LocalQuestionnaireToLoinc",
+    "id": "local-questionnaire-to-loinc",
+    "status": "active",
+    "sourceUri": "http://ahdbservices.it/fhir/ValueSet/LocalQuestionnaireCategories",
+    "targetUri": "http://loinc.org",
+    "group": [
+        {
+            "source": "http://ahdbservices.it/fhir/CodeSystem/LocalProjectCode",
+            "target": "http://loinc.org",
+            "element": [
+                {
+                    "code": "localmdspudrs",
+                    "target": [
+                        {
+                            "code": "77717-7",
+                            "equivalence": "relatedto",
+                            "comment": "Local MDSUPDRS is related to the Unified Parkinson s Disease Rating Scale (UPDRS) panel but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "localmds36r",
+                    "target": [
+                        {
+                            "code": "65699-1",
+                            "equivalence": "relatedto",
+                            "comment": "Local subscore is related to pronation and supination movements of the right hand in MDSUPDRS part 3.6 but it is not equivalent."
+                        }
+                    ]
+                },
+                {
+                    "code": "localmds36l",
+                    "target": [
+                        {
+                            "code": "65700-7",
+                            "equivalence": "relatedto",
+                            "comment": "Local subscore is related to pronation and supination movements of the left hand in MDSUPDRS part 3.6 but it is not equivalent."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

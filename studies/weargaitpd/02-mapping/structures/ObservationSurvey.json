@@ -1,0 +1,33 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ObservationSurvey",
+  "url": "http://ahdbservices.it/fhir/StructureDefinition/ObservationSurvey",
+  "name": "ObservationSurvey",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "ObservationSurvey",
+  "snapshot": {
+    "element": [
+      { "id": "ObservationSurvey", 
+        "path": "ObservationSurvey",
+        "definition": "Logical model for Observation survey data from CSV file",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "ObservationSurvey.moca_score",
+        "path": "ObservationSurvey.moca_score",
+        "definition": "Total score [MoCA] Montreal Cognitive Assessment",
+        "min": 0,
+        "max": 1,
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      }
+    ]
+  }
+}

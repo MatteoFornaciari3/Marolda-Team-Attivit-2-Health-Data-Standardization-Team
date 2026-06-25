@@ -1,0 +1,34 @@
+{
+    "resourceType": "ValueSet",
+    "url": "http://ahdbservices.it/fhir/ValueSet/LocalDeviceCategories",
+    "name": "LocalDeviceCategories",
+    "id": "local-device-categories",
+    "status": "active",
+    "compose": {
+      "include": [
+        {
+          "system": "http://snomed.info/sct",
+          "concept": [
+            {
+              "code": "408746007",
+              "display": "SNOMED CT Sensor device (physical object)"
+            }
+          ]
+        },
+        {
+          "system": "http://ahdbservices.it/fhir/CodeSystem/LocalDeviceCode",
+          "concept": [
+            {
+              "code": "PPW",
+              "display": "ProtoKinetics Zeno Walkway Gait Analysis System"
+            },
+            {
+              "code": "IMU",
+              "display": "Movella/Xsens MTw Awinda Inertial Measurement Units (IMUs)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

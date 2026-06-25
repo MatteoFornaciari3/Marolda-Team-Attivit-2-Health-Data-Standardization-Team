@@ -1,0 +1,331 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "QuestionnaireInput",
+  "url": "http://ahdbservices.it/fhir/StructureDefinition/QuestionnaireInput",
+  "name": "QuestionnaireInput",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "QuestionnaireInput",
+  "snapshot": {
+    "element": [
+      { "id": "QuestionnaireInput", 
+        "path": "QuestionnaireInput",
+        "definition": "Logical model for Questionnaire input data from CSV file",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_1", 
+        "path": "QuestionnaireInput.mds_3_1",
+        "definition": "Speech",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_2", 
+        "path": "QuestionnaireInput.mds_3_2",
+        "definition": "Facial expression",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_3_neck", 
+        "path": "QuestionnaireInput.mds_3_3_neck",
+        "definition": "Rigidity Neck",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_3_rue", 
+        "path": "QuestionnaireInput.mds_3_3_rue",
+        "definition": "Rigidity Right Upper Extremity",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_3_lue", 
+        "path": "QuestionnaireInput.mds_3_3_lue",
+        "definition": "Rigidity Left Upper Extremity",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_3_rle", 
+        "path": "QuestionnaireInput.mds_3_3_rle",
+        "definition": "Rigidity Right Lower Extremity",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_3_lle", 
+        "path": 	"QuestionnaireInput.mds_3_3_lle",
+        "definition": "Rigidity Left Lower Extremity",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+        "id": "QuestionnaireInput.mds_3_4_r", 
+        "path": "QuestionnaireInput.mds_3_4_r",
+        "definition": "Finger Taps Right Hand",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "integer" }
+        ]
+      },
+      {
+          "id": "QuestionnaireInput.mds_3_4_l", 
+          "path": "QuestionnaireInput.mds_3_4_l",
+          "definition": "Finger Taps Left Hand",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_5_r", 
+          "path": "QuestionnaireInput.mds_3_5_r",
+          "definition": "Hand Movements Right Hand",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_5_l", 
+          "path": "QuestionnaireInput.mds_3_5_l",
+          "definition": "Hand Movements Left Hand",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_6_r", 
+          "path": "QuestionnaireInput.mds_3_6_r",
+          "definition": "Pronation-Supination Movements of Hands Right Hand",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_6_l", 
+          "path": 	"QuestionnaireInput.mds_3_6_l",
+          "definition": "Pronation-Supination Movements of Hands Left Hand",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_8_r", 
+          "path": "QuestionnaireInput.mds_3_8_r",
+          "definition": "Leg Agility Right Leg",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_8_l", 
+          "path": 	"QuestionnaireInput.mds_3_8_l",
+          "definition": 	"Leg Agility Left Leg",
+          "min": 0,
+          "max": 	1,
+          "type": [
+            {	"code": 	"integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_9", 
+          "path": "QuestionnaireInput.mds_3_9",
+          "definition": "Arising from Chair",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_10", 
+          "path": "QuestionnaireInput.mds_3_10",
+          "definition": "Gait",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_11", 
+          "path": "QuestionnaireInput.mds_3_11",
+          "definition": "Freezing of Gait",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_12", 
+          "path": "QuestionnaireInput.mds_3_12",
+          "definition": "Postural Stability",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_13", 
+          "path": "QuestionnaireInput.mds_3_13",
+          "definition": "Posture",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_14", 
+          "path": "QuestionnaireInput.mds_3_14",
+          "definition": "Global Spontaneity of Movement (Body Bradykinesia)",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_15_R", 
+          "path": "QuestionnaireInput.mds_3_15_R",
+          "definition": "Postural tremor of the hands Right Side",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_15_L", 
+          "path": "QuestionnaireInput.mds_3_15_L",
+          "definition": "Postural tremor of the hands Left Side",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_17_RUE", 
+          "path": "QuestionnaireInput.mds_3_17_RUE",
+          "definition": "Rest tremor amplitude Right Upper Extremity",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_17_LUE", 
+          "path": "QuestionnaireInput.mds_3_17_LUE",
+          "definition": "Rest tremor amplitude Left Upper Extremity",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_17_RLE", 
+          "path": "QuestionnaireInput.mds_3_17_RLE",
+          "definition": "Rest tremor amplitude Right Lower Extremity",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_17_LLE", 
+          "path": "QuestionnaireInput.mds_3_17_LLE",
+          "definition": "Rest tremor amplitude Left Lower Extremity",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_3_17_LipJaw", 
+          "path": "QuestionnaireInput.mds_3_17_LipJaw",
+          "definition": "Rest tremor amplitude Lip and Jaw",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_4_1", 
+          "path": "QuestionnaireInput.mds_4_1",
+          "definition": "Time spent with Dyskinesias",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+        {
+          "id": "QuestionnaireInput.mds_4_2", 
+          "path": "QuestionnaireInput.mds_4_2",
+          "definition": "Functional impact of dyskinesias ",
+          "min": 0,
+          "max": 1,
+          "type": [
+            { "code": "integer" }
+          ]
+        },
+          {
+            "id": "QuestionnaireInput.mds_4_3", 
+            "path": "QuestionnaireInput.mds_4_3",
+            "definition": "Time spent in OFF state",
+            "min": 0,
+            "max": 1,
+            "type": [
+              { "code": "integer" }
+            ]
+          }
+      ]
+    }
+}

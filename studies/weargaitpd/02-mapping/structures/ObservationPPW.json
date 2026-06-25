@@ -1,0 +1,41 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ObservationPPW",
+  "url": "http://ahdbservices.it/fhir/StructureDefinition/ObservationPPW",
+  "name": "ObservationPPW",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": true,
+  "type": "ObservationPPW",
+  "snapshot": {
+    "element": [
+      { "id": "ObservationPPW", 
+        "path": "ObservationPPW",
+        "definition": "Logical model for Observation PPW data from CSV file",
+        "min": 0,
+        "max": 1
+      },
+      {
+        "id": "ObservationPPW.l_foot_contact",
+        "path": "ObservationPPW.l_foot_contact",
+        "definition": "Binary marker of left foot contact",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "decimal" }
+        ]
+      },
+      {
+        "id": "ObservationPPW.walkway_x",
+        "path": "ObservationPPW.walkway_x",
+        "definition": "Vector of x-coordinates for active walkway sensors at time point t, where xi corresponds with yi.",
+        "min": 0,
+        "max": 1,
+        "type": [
+          { "code": "decimal" }
+        ]
+      }
+    ]
+  }
+}

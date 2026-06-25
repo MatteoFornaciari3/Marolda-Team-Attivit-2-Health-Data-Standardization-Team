@@ -1,0 +1,338 @@
+map "http://ahdbservices.it/fhir/StructureMap/QuestionnaireToQuestionnaireResponse" = "QuestionnaireToQuestionnaireResponse"
+
+uses "http://hl7.org/fhir/StructureDefinition/Patient" alias Patient as target
+uses "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" alias QuestionnaireResponse as target
+uses "http://ahdbservices.it/fhir/StructureDefinition/QuestionnaireInput" alias QuestionnaireInput as source
+
+group QuestionnaireToQuestionnaireResponse(
+  source rer : QuestionnaireInput,
+  source patient : Patient,
+  source encounter : Encounter,
+  source practitioner : Practitioner,
+  target qr : QuestionnaireResponse
+) {
+    rer -> qr.status = 'completed' "MDSUPDRS status";
+    rer -> qr.questionnaire = "Questionnaire?name=MDSUPDRS" "MDSUPDRS Questionnaire uri";
+
+    patient -> qr.subject = create('Reference') as subj_r then {
+        patient.id as p_id -> subj_r.reference = append("urn:uuid:", p_id) "reference";
+    } "QuestionnaireInput Questionnaire subject";
+
+    encounter -> qr.encounter = create('Reference') as enc_r then {
+        encounter.id as enc_id -> enc_r.reference = append("urn:uuid:", enc_id) "reference";
+    } "QuestionnaireInput Questionnaire Encounter";
+
+    practitioner -> qr.author = create('Reference') as prac_r then {
+        practitioner.id as prac_id -> prac_r.reference = append("urn:uuid:", prac_id) "reference";
+    } "QuestionnaireInput Questionnaire Practitioner";
+
+    rer.mds_3_1 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_1",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_2 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_2",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_3_neck as r ->
+        qr.item as i,
+        i.linkId = "mds_3_3_neck",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_3_rue as r ->
+        qr.item as i,
+        i.linkId = "mds_3_3_rue",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_3_lue as r ->
+        qr.item as i,
+        i.linkId = "mds_3_3_lue",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_3_rle as r ->
+        qr.item as i,
+        i.linkId = "mds_3_3_rle",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_3_lle as r ->
+        qr.item as i,
+        i.linkId = "mds_3_3_lle",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_4_r as r ->
+        qr.item as i,
+        i.linkId = "mds_3_4_r",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_4_l as r ->
+        qr.item as i,
+        i.linkId = "mds_3_4_l",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_5_r as r ->
+        qr.item as i,
+        i.linkId = "mds_3_5_r",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_5_l as r ->
+        qr.item as i,
+        i.linkId = "mds_3_5_l",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_6_r as r ->
+        qr.item as i,
+        i.linkId = "mds_3_6_r",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_6_l as r ->
+        qr.item as i,
+        i.linkId = "mds_3_6_l",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_8_r as r ->
+        qr.item as i,
+        i.linkId = "mds_3_8_r",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_8_l as r ->
+        qr.item as i,
+        i.linkId = "mds_3_8_l",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_9 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_9",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_10 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_10",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_11 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_11",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_12 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_12",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_13 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_13",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_14 as r ->
+        qr.item as i,
+        i.linkId = "mds_3_14",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+    
+    rer.mds_3_15_R as r ->
+        qr.item as i,
+        i.linkId = "mds_3_15_R",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_15_L as r ->
+        qr.item as i,
+        i.linkId = "mds_3_15_L",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_17_RUE as r ->
+        qr.item as i,
+        i.linkId = "mds_3_17_RUE",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_17_LUE as r ->
+        qr.item as i,
+        i.linkId = "mds_3_17_LUE",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_17_RLE as r ->
+        qr.item as i,
+        i.linkId = "mds_3_17_RLE",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_17_LLE as r ->
+        qr.item as i,
+        i.linkId = "mds_3_17_LLE",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_3_17_LipJaw as r ->
+        qr.item as i,
+        i.linkId = "mds_3_17_LipJaw",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_4_1 as r ->
+        qr.item as i,
+        i.linkId = "mds_4_1",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_4_2 as r ->
+        qr.item as i,
+        i.linkId = "mds_4_2",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+
+    rer.mds_4_3 as r ->
+        qr.item as i,
+        i.linkId = "mds_4_3",
+        i.answer as a,
+        a.value = create("Quantity") as vq,
+        vq.value = r,
+        vq.system = "http://unitsofmeasure.org",
+        vq.code = "{score}",
+        vq.unit = "{score}";
+}
